@@ -1,0 +1,54 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+/* mise en forme de l'entete */
+
+
+.image1{
+    position: relative;
+}
+#image{
+    width: 100%;
+    height: 86vh;
+    object-fit: cover;
+}
+.titre{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    font-size: xx-large;
+    color: oldlace;
+    opacity: 0.6;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.sous_h1{
+    font-size: xx-large;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+    margin-top: 20px;
+    color: wheat;
+    
+}
+#button{
+    width: 200px;
+    height: 50px;
+    margin-left: 400px;
+    margin-right: 400px;
+    margin-top: 20px;
+    border-radius: 0.5rem;
+    border: transparent;
+    font-size: x-large;
+    font-family: 'Times New Roman', Times, serif;
+}
+#button:hover{
+    background-color:#333;
+}
+.content{
+    margin: 0px auto;
+    width: calc(100% - 100px);
+}
+
+/* mise en forme du corps */
